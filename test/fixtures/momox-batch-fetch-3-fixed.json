@@ -1,0 +1,19 @@
+{
+  "_fixture": "Synthetic results for parser tests; no captured headers, sessions or credentials.",
+  "result": {
+    "browser_data": {
+      "js_scenario": {
+        "steps": [{
+          "action": "execute",
+          "result": {
+            "results": [
+              {"code": "9782824625256", "ok": true, "data": {"status": "offer", "price": "4.50", "product": {"title": "L'intruse", "full_size_image_url": "https://images.example.test/momox.de/book-one.jpg"}}},
+              {"code": "9782070368228", "ok": true, "data": {"status": "no_offer", "product": {"title": "1984", "image_url": "https://images.example.test/book-two.jpg"}}},
+              {"code": "9782092553343", "ok": true, "data": {"status": "offer", "price": "0.75", "product": {"title": "Example book three"}}}
+            ]
+          }
+        }]
+      }
+    }
+  }
+}

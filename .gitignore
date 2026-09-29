@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+coverage/
+public/uploads/
+scrapfly-tests/
+*.dump
+*.sqlite
+*.sqlite3
+*.pem
+*.key

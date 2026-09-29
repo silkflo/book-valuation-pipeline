@@ -1,0 +1,30 @@
+{
+  "name": "book-valuation-pipeline",
+  "version": "1.0.0",
+  "description": "Multi-source book valuation backend: Apify webhooks, ISBN validation, Scrapfly providers and PostgreSQL job queues",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "node scripts/run-offline-tests.mjs",
+    "check": "node scripts/check-source.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.23.4",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^6.42.0",
+    "pg": "^8.13.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  }
+}
